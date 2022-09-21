@@ -145,15 +145,15 @@
     margin-bottom: 20px;
   }
 
-  .graduacao-tipo{
+  .graduacao-tipo {
     font-size: 0.725rem;
   }
 
-  .graduacao-nome{
+  .graduacao-nome {
     font-size: 1rem;
   }
 
-  .graduacao-local{
+  .graduacao-local {
     font-size: 1rem;
   }
 
@@ -176,7 +176,6 @@
   }
 }
 
-
 @media (max-width: 570px) {
   .formacao .container {
     padding: 20px;
@@ -192,22 +191,26 @@
 
   .formacao-extra li {
     font-size: 0.875rem;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
 
   .formacao-extra h3 {
     margin-bottom: 10px;
   }
 
-  .graduacao-tipo{
+  .graduacoes {
+    align-items: stretch;
+  }
+
+  .graduacao-tipo {
     font-size: 0.65rem;
   }
 
-  .graduacao-nome{
+  .graduacao-nome {
     font-size: 0.875rem;
   }
 
-  .graduacao-local{
+  .graduacao-local {
     font-size: 0.875rem;
   }
 
