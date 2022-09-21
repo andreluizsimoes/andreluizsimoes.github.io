@@ -1,0 +1,84 @@
+.introducao {
+  align-items: center;
+  gap: 100px;
+}
+
+.introducao h1 {
+  font-family: Grandstander, "Fira Sans", Arial, sans-serif;
+  font-size: 5rem;
+  line-height: 1;
+  font-weight: bold;
+  position: relative;
+}
+
+.introducao p {
+  font-size: 1.5rem;
+  color: #525252;
+}
+
+.introducao h1::before {
+  content: " ";
+  display: block;
+  width: 130px;
+  height: 126px;
+  background: url(../img/decor.svg) no-repeat center;
+  position: absolute;
+  top: -35px;
+  left: -40px;
+  z-index: -1;
+}
+
+@media (max-width: 950px) {
+  .introducao h1 {
+    font-size: 4rem;
+  }
+
+  .introducao p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .introducao {
+    gap: 40px;
+  }
+
+  .introducao h1 {
+    font-size: 3rem;
+  }
+
+  .introducao p {
+    font-size: 1rem;
+  }
+
+  .introducao h1::before {
+    width: 15px;
+    height: 15px;
+    top: 5px;
+    left: -20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .introducao {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+
+  .introducao img {
+    display: none;
+  }
+
+  .introducao h1 {
+    font-size: 2rem;
+  }
+
+  .introducao h1,
+  .introducao p {
+    text-align: center;
+  }
+
+  .introducao h1::before {
+    display: none;
+  }
+}
