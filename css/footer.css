@@ -39,8 +39,7 @@
 
 .material-icons-round{
   font-size: 2.5rem !important;
-  color: #7fb52d;
-  
+  color: #7fb52d; 
   vertical-align: middle;  
 }
 
@@ -82,7 +81,12 @@
     background-size: contain;
     position: absolute;
     top: -30px;
-    left: 200px;
+    left: 160px;
+  }
+
+  .material-icons-round{
+        font-size: 1.2rem !important;    
+     
   }
 }
 
