@@ -6,21 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Desenvolvedor Front End & UI Design - Salvador - BA">
     <title>André Simões - Dev e Designer</title>
-    <link rel="stylesheet" href="./css/style.min.css">    
+    <link rel="stylesheet" href="./css/style.css">    
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Grandstander:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+
+    <!-- Script para evitar bugs nos JavaScripts -->
+    <script>
+        document.documentElement.classList.add("js");
+      </script>
       
 </head>
 
 <body>
-    <header class="header">
-        <img src="./img/logo.svg" alt="Logo Deco Dev" width="395" height="42">
+    <header class="header fadeInDown" data-anime="200">
+        <a href="/index.html"><img src="./img/logo.svg" alt="Logo Deco Dev" width="395" height="42"></a>
 
         <nav>
-            <ul class="header-menu">
+            <ul class="header-menu" >
                 <li><a href="#experiencia">Experiência</a></li>
                 <li><a href="#formacao">Formação</a></li>
                 <li><a href="#contato">Contato</a></li>
@@ -29,16 +34,16 @@
     </header>
 
     <main class="container introducao">
-        <img src="./img/foto-perfil.jpg" alt="Foto de Perfil" width="360" height="460">
+        <img src="./img/foto-perfil.jpg" alt="Foto de Perfil" width="360" height="460" class="fadeInLeft" data-anime="400">
 
-        <div>
+        <div data-anime="500" class="fadeInRight">
             <h1>Desenvolvedor <br>Front End & <br>UI Design</h1>
             <p>Salvador - BA</p>
         </div>
     </main>   
 
     <section aria-label="Experiência" id="experiencia" class="container experiencia">
-        <div class="experiencia-texto">
+        <div class="experiencia-texto fadeInUp" data-anime="800">
             <p>Minha trajetória pessoal e profissional é recheada de mudanças e desafios, mas sempre fui apaixonado pela <strong>tecnologia</strong>  desde a era da internet discada. Já trabalhei como programador <strong>Java</strong>, gereciei plataformas de ensino EAD, criei e ajustei sites usando <strong>HTML</strong> e <strong>CSS</strong>, e até fui suporte a alunos, funcionários e professores. Sou do tipo que "veste a camisa"! <strong>Responsabilidade, cuidado, foco e compromisso</strong> me guiam na execução de trabalhos. Sempre <strong>disposto</strong> a novos desafios, <strong>vivendo e aprendendo.</strong> 
             <br><strong>Tarefa dada é tarefa cumprida!</strong></p>
         </div>
@@ -157,7 +162,8 @@
         </div>
 
     </footer>
-
+    <script src="./js/plugins/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
