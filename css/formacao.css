@@ -117,6 +117,15 @@
   color: #8f8f8f;
 }
 
+.cursos a:link {
+  text-decoration: none;
+  color: #8f8f8f;
+}
+
+.cursos a:visited {
+  color: #8f8f8f;
+}
+
 @media (max-width: 900px) {
   .formacao .container {
     grid-template-columns: 1fr;

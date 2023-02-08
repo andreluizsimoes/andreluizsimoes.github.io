@@ -23,10 +23,9 @@
 .footer-contato {
   color: #dedede;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: right;
   margin-bottom: 40px;
-  
   display: flex;
   justify-content: end;
   flex-direction: column;
@@ -37,10 +36,25 @@
   position: relative;
 }
 
-.material-icons-round{
+.material-icons-round {
   font-size: 2.5rem !important;
-  color: #7fb52d; 
-  vertical-align: middle;  
+  color: #7fb52d;
+  vertical-align: middle;
+}
+
+.icon-footer {
+  font-size: 2.5rem !important;
+  color: #7fb52d;
+  vertical-align: middle;
+}
+
+.footer a:link {
+  text-decoration: none;
+  color: #dedede;
+}
+
+.footer a:visited {
+  color: #dedede;
 }
 
 .footer-copy {
@@ -48,7 +62,7 @@
 }
 
 @media (max-width: 900px) {
-  .footer-contato{
+  .footer-contato {
     font-size: 1.5rem;
   }
 
@@ -63,14 +77,13 @@
   }
 }
 
-
 @media (max-width: 570px) {
-  .footer-contato{
+  .footer-contato {
     font-size: 1.1rem;
     text-align: center;
   }
 
-  .footer-copy{
+  .footer-copy {
     font-size: 0.875rem;
   }
 
@@ -84,9 +97,7 @@
     left: 160px;
   }
 
-  .material-icons-round{
-        font-size: 1.2rem !important;    
-     
+  .material-icons-round {
+    font-size: 1.2rem !important;
   }
 }
-
